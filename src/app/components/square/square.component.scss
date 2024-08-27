@@ -1,0 +1,13 @@
+.square {
+    display: flex;
+    background-color: var(--primary-color);        
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+img {
+    height: 40px;
+    width: 40px;    
+    position: absolute;
+}

@@ -1,0 +1,8 @@
+.board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.6rem;   
+    height: 20.04rem;
+    width: 20.04rem;
+    background-color: var(--primary-color--dark);  
+}

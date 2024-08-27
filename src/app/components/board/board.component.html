@@ -1,0 +1,7 @@
+<div class="board">
+    @for (row of board; track trackByIndex; let rowIndex = $index) {
+        @for (square of row; track trackByIndex; let colIndex = $index) {
+            <app-square [value]="square" (click)="handleSquare(rowIndex, colIndex)"></app-square>
+        }
+    }    
+</div>

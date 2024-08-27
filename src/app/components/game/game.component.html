@@ -1,0 +1,11 @@
+<div class="game">
+    <h1>Tic-Tac-Toe</h1>
+    <div class="status">
+        <button (click)="resetMatch()">Restart</button>    
+        <div>
+            <p>Player: {{ currentPlayer }}</p>
+            <p>Winner: {{ winner }}</p>
+        </div>
+    </div>
+    <app-board [board]="board" (move)="handleMove($event.row, $event.col)"></app-board>
+</div>

@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-color: #14BDAC;
+    --primary-color--dark: #0DA192;    
+    --white-color: #FFF;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;  
+}
+
+body {
+    font-family: 'Arial';    
+    background-color: var(--primary-color);
+}
+
+html, body {
+    height: 100%;
+}
